@@ -1,0 +1,27 @@
+{
+  "name": "Comment",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "content": {
+      "type": "string",
+      "required": true
+    },
+    "playerId": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "player": {
+      "type": "belongsTo",
+      "model": "Player",
+      "foreignKey": "playerId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
