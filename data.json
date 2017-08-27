@@ -5,7 +5,7 @@
     "ACL": 1,
     "RoleMapping": 1,
     "Role": 1,
-    "Player": 7
+    "Player": 10
   },
   "models": {
     "User": {},
@@ -13,9 +13,6 @@
     "ACL": {},
     "RoleMapping": {},
     "Role": {},
-    "Player": {
-      "5": "{\"firstName\":\"Tom\",\"lastName\":\"Brady\",\"jerseyNumber\":12,\"position\":\"QB\",\"team\":\"string\",\"id\":5}",
-      "6": "{\"firstName\":\"Timmy\",\"lastName\":\"Tebow\",\"jerseyNumber\":15,\"position\":\"QB\",\"team\":\"Washington Redskins\",\"id\":6}"
-    }
+    "Player": {}
   }
 }
