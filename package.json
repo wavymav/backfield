@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "server/server.js",
   "engines": {
-    "node": ">=4"
+    "node": "7.10.1"
   },
   "scripts": {
     "start:dev": "nodemon server/server.js --watch common --watch server",
