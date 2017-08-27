@@ -1,6 +1,6 @@
 'use strict'
 
-require('dotenv').config()
+// require('dotenv').config()
 
 const mongodbUrl = process.env.MONGODB_URL
 
